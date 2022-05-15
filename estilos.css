@@ -1,0 +1,257 @@
+body{
+	font-family: Helvetica;
+	background-color: #363945;
+	width: 100%;
+    overflow-x: hidden;
+}
+h1{
+	color: white;
+	-webkit-text-stroke-width: 0.8px;
+  	-webkit-text-stroke-color: black;
+}
+
+.celda{
+	width: 85px;
+	min-width: 85%;
+}
+.vacio{
+	width: 100%;
+}
+
+#gridContainer1{
+	display: grid;
+	grid-template-columns: repeat(18,1fr);
+	grid-template-rows: repeat(8,1fr);
+	width: 90%;
+	margin: auto;
+	grid-gap: 2px;
+	margin-bottom: 2rem;
+}
+#gridContainer2{
+	display: grid;
+	grid-template-columns: repeat(18,1fr);
+	grid-template-rows: repeat(2,1fr);
+	width: 90%;
+	margin: auto;
+	grid-gap: 2px;
+}
+
+#gridContainer3{
+	padding-top: 3rem;
+	display: grid;
+	grid-template-columns: repeat(20,1fr);
+	grid-template-rows: repeat(2,1fr);
+	width: 60%;
+	margin: auto;
+	grid-gap: 2px;
+
+}
+
+#gridContainer3 .celda{
+
+	width: 9vh;
+	font-weight: bold;
+	font-size: 1em;
+	display: flex;
+	vertical-align: center;
+	align-items: center;
+}
+#gridContainer3 .celda>.nombre{
+	text-align: center;
+	vertical-align: 50%;
+	margin: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#gridContainer3 .celda:first-child{
+	background-color: hsl(15deg 62% 70%);
+}
+#gridContainer3 .celda:nth-child(3){
+	background-color: hsl(36deg 68% 71%);
+}
+#gridContainer3 .celda:nth-child(5){
+	background-color: hsl(57deg 59% 72%);
+}
+#gridContainer3 .celda:nth-child(7){
+	background-color: hsl(106deg 31% 66%);
+}
+#gridContainer3 .celda:nth-child(9){
+	background-color: hsl(191deg 42% 72%);
+}
+#gridContainer3 .celda:nth-child(11){
+	background-color: hsl(227deg 31% 67%);
+}
+#gridContainer3 .celda:nth-child(13){
+	background-color: hsl(264deg 23% 64%);
+}
+#gridContainer3 .celda:nth-child(15){
+	background-color: hsl(303deg 23% 65%);
+}
+#gridContainer3 .celda:nth-child(17){
+	background-color: hsl(330deg 49% 70%);
+}
+#gridContainer3 .celda:nth-child(19){
+	background-color: hsl(321deg 34% 71%);
+}
+
+#celdavacia{
+	grid-row: 1/2;
+	grid-column: 2/-2;
+	text-align: center;
+}
+#celdavacia2{
+	grid-row: 2/3;
+	grid-column: 3/-7;
+	text-align: center;
+}
+
+.celda{
+	border: black solid 1px;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+
+}
+
+.numero{
+	color: black;
+	font-weight: bold;
+}
+
+
+#explicacion2{
+	grid-row: 3/4;
+	grid-column: 3/6;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	color: white;
+	-webkit-text-stroke-width: 0.2px;
+  	-webkit-text-stroke-color: black;
+}
+
+#explicacion3{
+	grid-row: 3/4;
+	grid-column: 6/7;
+	padding-left: 1rem;
+	font-weight: bold;
+
+	font-size: 1.4em;
+	-webkit-text-stroke-width: 0.08px;
+  	-webkit-text-stroke-color: white;
+}
+#explicacion4{
+	grid-row: 3/4;
+	grid-column: 7/8;
+	padding-left: 0.8rem;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: hsl(196deg 100% 47%);
+}
+#explicacion5{
+	grid-row: 3/4;
+	grid-column: 8/10;
+	padding-left: 1rem;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: white;
+	-webkit-text-stroke-width: 0.8px;
+  	-webkit-text-stroke-color: black;
+}
+#explicacion6{
+	grid-row: 3/4;
+	grid-column: 9/13;
+}
+#relleno1{
+	grid-row: 3/4;
+	grid-column: 10/13;
+}
+
+.no_metal{
+	background-color:hsl(226deg 31% 68%);
+}
+.no_metal:hover{
+	
+	background-color:hsl(226deg 40% 80%);
+}
+
+.metal_alcalino{
+	background-color: hsl(16deg 62% 70%);
+}
+.metal_alcalino:hover{
+	
+	background-color: hsl(16deg 40% 80%);
+}
+.tierra_alcalina{
+	background-color: hsl(36deg 67% 71%);
+}
+.tierra_alcalina:hover{
+	
+	background-color: hsl(36deg 40% 80%);
+}
+.metal_transicion{
+	background-color: hsl(57deg 59% 72%);
+}
+.metal_transicion:hover{
+	
+	background-color: hsl(57deg 40% 80%);
+}
+.metal_basico{
+	background-color: hsl(105deg 32% 65%);
+}
+.metal_basico:hover{
+	background-color: hsl(105deg 40% 80%);
+}
+.metaloide{
+	background-color: hsl(190deg 41% 72%);
+}
+.metaloide:hover{
+	background-color: hsl(190deg 40% 80%);
+}
+.halogeno{
+	background-color: hsl(264deg 23% 64%);
+}
+.halogeno:hover{
+	background-color: hsl(264deg 40% 80%);
+}
+.gas_noble{
+	background-color: hsl(301deg 23% 65%);
+}
+.gas_noble:hover{
+	background-color: hsl(301deg 40% 80%);
+}
+.lantanido{
+	background-color: hsl(330deg 49% 70%);
+}
+.lantanido:hover{
+	background-color: hsl(330deg 40% 80%);
+}
+.actinido{
+	background-color: hsl(321deg 34% 71%);
+}
+.actinido:hover{
+	background-color: hsl(321deg 40% 80%);
+}
+.simbolo{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.gas>.simbolo{
+	color: white;
+	-webkit-text-stroke-width: 0.2px;
+  	-webkit-text-stroke-color: black;
+}
+
+.liquido>.simbolo{
+	color: hsl(196deg 100% 47%);
+	-webkit-text-stroke-width: 0.7px;
+  	-webkit-text-stroke-color: black;
+}
+
+.sustituto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
