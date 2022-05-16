@@ -6,6 +6,7 @@ body{
 }
 h1{
 	color: white;
+	font-size: 2rem;
 	-webkit-text-stroke-width: 0.8px;
   	-webkit-text-stroke-color: black;
 }
@@ -13,6 +14,9 @@ h1{
 .celda{
 	width: 85px;
 	min-width: 85%;
+}
+.celda:hover{
+	transform: scale(1.15);
 }
 .vacio{
 	width: 100%;
@@ -135,7 +139,6 @@ h1{
 	grid-column: 6/7;
 	padding-left: 1rem;
 	font-weight: bold;
-
 	font-size: 1.4em;
 	-webkit-text-stroke-width: 0.08px;
   	-webkit-text-stroke-color: white;
@@ -171,7 +174,7 @@ h1{
 	background-color:hsl(226deg 31% 68%);
 }
 .no_metal:hover{
-	
+	border: solid 1px #526bbb;
 	background-color:hsl(226deg 40% 80%);
 }
 
@@ -179,57 +182,63 @@ h1{
 	background-color: hsl(16deg 62% 70%);
 }
 .metal_alcalino:hover{
-	
+	border: 1px solid #c76b4b;
 	background-color: hsl(16deg 40% 80%);
 }
 .tierra_alcalina{
 	background-color: hsl(36deg 67% 71%);
 }
 .tierra_alcalina:hover{
-	
+	border: 1px solid #b17e33;
 	background-color: hsl(36deg 40% 80%);
 }
 .metal_transicion{
 	background-color: hsl(57deg 59% 72%);
 }
 .metal_transicion:hover{
-	
+	border: 1px solid #bfb716;
 	background-color: hsl(57deg 40% 80%);
 }
 .metal_basico{
 	background-color: hsl(105deg 32% 65%);
 }
 .metal_basico:hover{
+	border: 1px solid #45c31c;
 	background-color: hsl(105deg 40% 80%);
 }
 .metaloide{
 	background-color: hsl(190deg 41% 72%);
 }
 .metaloide:hover{
+	border: 1px solid #07bee3;
 	background-color: hsl(190deg 40% 80%);
 }
 .halogeno{
 	background-color: hsl(264deg 23% 64%);
 }
 .halogeno:hover{
+	border: 1px solid #8939ff;
 	background-color: hsl(264deg 40% 80%);
 }
 .gas_noble{
 	background-color: hsl(301deg 23% 65%);
 }
 .gas_noble:hover{
+	border: 1px solid #d513cb;
 	background-color: hsl(301deg 40% 80%);
 }
 .lantanido{
 	background-color: hsl(330deg 49% 70%);
 }
 .lantanido:hover{
+	border: 1px solid #fb2591;
 	background-color: hsl(330deg 40% 80%);
 }
 .actinido{
 	background-color: hsl(321deg 34% 71%);
 }
 .actinido:hover{
+	border: 1px solid #8b0a5f;
 	background-color: hsl(321deg 40% 80%);
 }
 .simbolo{
