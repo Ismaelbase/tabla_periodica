@@ -9,6 +9,7 @@ h1{
 	font-size: 2rem;
 	-webkit-text-stroke-width: 0.8px;
   	-webkit-text-stroke-color: black;
+  	text-shadow: white 1px 0 10px;
 }
 
 .celda{
@@ -132,6 +133,8 @@ h1{
 	color: white;
 	-webkit-text-stroke-width: 0.2px;
   	-webkit-text-stroke-color: black;
+  	text-shadow: white 1px 0 10px;
+
 }
 
 #explicacion3{
@@ -142,6 +145,7 @@ h1{
 	font-size: 1.4em;
 	-webkit-text-stroke-width: 0.08px;
   	-webkit-text-stroke-color: white;
+  	text-shadow: white 1px 0 10px;
 }
 #explicacion4{
 	grid-row: 3/4;
@@ -150,6 +154,7 @@ h1{
 	font-weight: bold;
 	font-size: 1.4em;
 	color: hsl(196deg 100% 47%);
+	text-shadow: hsl(196deg 100% 47%) 1px 0 10px;
 }
 #explicacion5{
 	grid-row: 3/4;
@@ -160,6 +165,7 @@ h1{
 	color: white;
 	-webkit-text-stroke-width: 0.8px;
   	-webkit-text-stroke-color: black;
+  	text-shadow: white 1px 0 10px;
 }
 #explicacion6{
 	grid-row: 3/4;
